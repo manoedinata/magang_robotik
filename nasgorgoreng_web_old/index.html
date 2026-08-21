@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NasgorGoreng Dashboard</title>
+
+    <!-- Bootstrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./assets/styles.css" />
+  </head>
+  <body>
+    <div class="bg-black text-white">
+      <div class="container col-xxl-8 px-4 py-5 vh-100">
+        <div class="row flex-lg-row-reverse align-items-center g-5 pt-5">
+          <div
+            class="col-10 col-sm-8 col-lg-6"
+            data-aos="fade-up"
+            data-aos-delay="500"
+            data-aos-duration="1000"
+          >
+            <img
+              src="./assets/logo-dark.png"
+              class="d-block mx-lg-auto img-fluid float-animation"
+              alt="NasgorGoreng"
+              width="700"
+              height="500"
+              loading="lazy"
+            />
+          </div>
+          <div
+            class="col-lg-6"
+            data-aos="fade-up"
+            data-aos-delay="250"
+            data-aos-duration="500"
+          >
+            <h1 class="display-5 fw-bold lh-1 mb-3">
+              From
+              <span class="text-danger">Nasi Goreng</span>
+              to <span class="text-info">IRIS</span>.
+            </h1>
+            <p class="lead">
+              Fighting for the first place in IRIS CUP 2025,
+              <strong>NasgorGoreng</strong> design an optimal autonomous
+              <strong>line follower robot</strong>, equipped with panel control
+              and telemetry system. We do our best to be the next IRIS 2025.
+            </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <a
+                type="button"
+                href="https://instagram.com/nasgorgoreng.team"
+                class="btn btn-light btn-lg px-4"
+              >
+                Visit Our Instagram
+              </a>
+              <a
+                type="button"
+                href="./station.html"
+                class="btn btn-outline-info btn-lg px-4"
+              >
+                Base Station
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        AOS.init();
+      });
+    </script>
+  </body>
+</html>

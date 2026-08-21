@@ -1,0 +1,7 @@
+# ROS 2 related files
+build/
+install/
+log/
+
+# Python virtual environment
+.venv/

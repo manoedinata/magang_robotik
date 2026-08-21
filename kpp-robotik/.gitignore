@@ -1,0 +1,5 @@
+.vscode/
+
+kpp.exe
+kpp_robotik/KPPRobotik
+kpp_robotik/*.o
